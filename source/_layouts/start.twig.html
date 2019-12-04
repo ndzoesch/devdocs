@@ -44,6 +44,52 @@
 </head>
 
 <body>
+
+<!-- TODO rework banner styling -->
+<style>
+    .announcement--banner .content > span.label {
+
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.15);
+        font-weight: 600;
+        margin: 0 5px 0 5px;
+        padding: 3px 8px;
+        line-height: 2.5rem;
+        text-transform: none;
+        letter-spacing: normal;
+        font-size: 1.12rem;
+
+    }
+
+    .announcement--banner .content > span.text {
+        display: block;
+    }
+
+    .announcement--banner .content {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        float: none;
+        padding: 0;
+        width: auto;
+        background: transparent;
+    }
+</style>
+<div class="announcement--banner dp--wrapper"
+     id="switch-to-six-docs"
+     style="--promotions-color: #150251; background-color: var(--promotions-color, #150251); display: block;">
+    <div class="section--inner">
+        <div class="row">
+            <a class="content" href="https://docs.shopware.com/en/shopware-platform-dev-en"
+               title="Shopware 6 documentation">
+                <span class="label">You are browsing the Shopware 5 documentation! <strong>Switch to the Shopware 6 documentation here.</strong></span>
+            </a>
+            <div class="close"><span></span> <span></span></div>
+        </div>
+    </div>
+</div>
+
 <div class="wrapper">
 
     <header class="header--main">
